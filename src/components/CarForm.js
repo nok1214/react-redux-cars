@@ -22,6 +22,7 @@ export default function CarForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addCar({ name, cost }));
+   
   };
 
   return (
